@@ -31,7 +31,8 @@ const Form = () => {
         reset();
     };
     return (
-        <div style={{ backgroundColor: "pink" }}>
+        < div style={{ backgroundColor: "pink", marginTop: '10px' }}>
+            <h4>Contact Me</h4>
             <form onSubmit={sendEmail}>
                 <div>
                     <input style={{ width: '50%', height: '50px', margin: '10px' }} type="text" placeholder="your name" />
@@ -49,7 +50,7 @@ const Form = () => {
                     }
                 </div>
             </form>
-        </div>
+        </div >
     );
 };
 

@@ -1,12 +1,25 @@
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
-import Form from './Components/Form/Form';
 import Home from './Components/Home/Home';
 
 function App() {
   return (
     <div className="App">
-      <Home></Home>
-      <Form></Form>
+
+      <BrowserRouter>
+        <Switch>
+          <Route path="/">
+            <Home></Home>
+          </Route>
+
+        </Switch>
+
+
+
+
+      </BrowserRouter>
+
+
     </div>
   );
 }
