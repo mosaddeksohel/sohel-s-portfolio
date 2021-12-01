@@ -3,10 +3,7 @@ import { Button, Row, Col, Container } from 'react-bootstrap';
 import Typewriter from 'typewriter-effect';
 import './Banner.css'
 import banner from '../../images/cover.jpg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-import { Link } from 'react-router-dom';
+
 
 
 const Banner = () => {
@@ -21,9 +18,7 @@ const Banner = () => {
                             development. I have expertise in HTML5, CSS3, Javascript, ES6, Bootstrap,
                             Material UI, Tailwind, React, Node JS, Express JS, Mongo DB.</h5>
 
-                        <a style={{ margin: '5px', fontSize: '20px' }} target="blank" href="https://www.facebook.com/soohhel.tilx/"><i class="fab fa-facebook-square"></i></a>
-                        <a style={{ margin: '5px', fontSize: '20px' }} target="blank" href="https://github.com/tanjimsohel"><i class="fab fa-github"></i></a>
-                        <a style={{ margin: '5px', fontSize: '20px' }} target="blank" href="https://www.linkedin.com/in/sohel-tanjim-9859a7190/"><i class="fab fa-linkedin"></i></a>
+
 
                         <Typewriter
                             classNameName="typewriter  "
@@ -59,9 +54,13 @@ const Banner = () => {
                         />
                         <a target='blank' href="https://drive.google.com/file/d/1fcTFxv4Jm15e3o9VArdxvyHu53AwXIov/view?usp=sharing">
 
-                            <Button>Resume</Button>
-
+                            <Button style={{ backgroundColor: 'skyblue', borderRadius: '5px', color: 'black', fontWeight: '700' }}>Resume</Button>
                         </a>
+                        <div>
+                            <a style={{ margin: '5px', fontSize: '20px' }} target="blank" href="https://www.facebook.com/soohhel.tilx/"><i class="fab fa-facebook-square"></i></a>
+                            <a style={{ margin: '5px', fontSize: '20px' }} target="blank" href="https://github.com/tanjimsohel"><i class="fab fa-github"></i></a>
+                            <a style={{ margin: '5px', fontSize: '20px' }} target="blank" href="https://www.linkedin.com/in/sohel-tanjim-9859a7190/"><i class="fab fa-linkedin"></i></a>
+                        </div>
                     </div>
                 </Col>
                 <Col xs={12} md={6}>
