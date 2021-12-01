@@ -10,17 +10,16 @@ const Projects = () => {
                     <img src={assignment12} alt="" />
                 </Col >
                 <Col xs={12} md={6}>
-                    <p style={{ textAlign: 'left' }}>
+                    <p style={{ textAlign: 'justify' }}>
                         ● Build a professional niche Mountain Bike selling website to sell the
                         bikes and the costumes are chosen to buy easily and load data
                         from the server. <br />
-                        ● Implement to admin dashboard to monitor the CURD operation to
+                        ● Implement to admin dashboard to monitor the <span style={{ color: 'hotpink' }}>CURD</span> operation to
                         UI. <br />
                         ● Users can cancel their order and if any product is shipped to the
-                        customer then the admin can declare the product pending to be
+                        customer then the <span style={{ color: 'hotpink' }}>admin</span> can declare the product pending to be
                         shipped & the admin can add any product. <br />
-                        ● Customers create their account only using email and password and
-                        Users can review their satisfaction with the product and services
+                        ● Customers create their account only using <span style={{ color: 'hotpink' }}>email and password </span>Users can review their satisfaction with the product and services
                         and implement this system using firebase.
                     </p>
                 </Col >
@@ -28,7 +27,7 @@ const Projects = () => {
             <Row className="container">
 
                 <Col xs={12} md={6}>
-                    <p style={{ textAlign: 'left' }}>
+                    <p style={{ textAlign: 'justify' }}>
                         ● Build a professional niche Mountain Bike selling website to sell the
                         bikes and the costumes are chosen to buy easily and load data
                         from the server. <br />
@@ -44,14 +43,14 @@ const Projects = () => {
                 </Col >
                 <Col xs={12} md={6}>
                     <img src={assignment12} alt="" />
-                </Col >
+                </Col>
             </Row>
             <Row className="container">
                 <Col xs={12} md={6}>
                     <img src={assignment12} alt="" />
                 </Col >
                 <Col xs={12} md={6}>
-                    <p style={{ textAlign: 'left' }}>
+                    <p style={{ textAlign: 'justify' }}>
                         ● Build a professional niche Mountain Bike selling website to sell the
                         bikes and the costumes are chosen to buy easily and load data
                         from the server. <br />

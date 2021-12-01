@@ -31,7 +31,7 @@ const Form = () => {
         reset();
     };
     return (
-        < div style={{ backgroundColor: "pink", marginTop: '10px' }}>
+        < div style={{ backgroundColor: "pink", marginTop: '10px', paddingBottom: '10px' }}>
             <h4>Contact Me</h4>
             <form onSubmit={sendEmail}>
                 <div>
