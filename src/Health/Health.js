@@ -32,26 +32,22 @@ const Health = () => {
                 <Row>
                     <ul style={{ textAlign: 'justify' }}>
                         <li >
-                            niche Mountain Bike selling website to sell the bikes and the costumes are chosen to buy easily and load data from the server.
+                            It is a health Care Hospital.
                         </li>
                         <li>
-                            Implement to admin dashboard to monitor the CURD operation to UI.
-
+                            Implementation that a customer book an appoinment.
                         </li>
                         <li>
-                            Users can cancel their order and if any product is shipped to the customer then the admin can declare the product pending to be shipped & the admin can add any product.
-
+                            All the booking info are private. Anyone can book an appoinment using create an account or login the website.
                         </li>
                         <li>
-                            Customers create their account only using email and password and Users can review their satisfaction with the product and services and implement this system using firebase.
-
+                            Here implement two different login system. One is user create a new account and login using that the email. and another one is user automatically login using gmail id.
                         </li>
                         <li>
-                            Topeak Joeblow Booster floor pump
-
+                            Login and registration system implement by firebase authentication.
                         </li>
                         <li>
-                            using technologies are javaScript, React,
+                            using technologies are javaScript, React, react router
                         </li>
                         <li>
                             In design using  bootstrap, Material UI and custom css

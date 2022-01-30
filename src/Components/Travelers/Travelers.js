@@ -34,23 +34,31 @@ const Travelers = () => {
                 <Row>
                     <ul style={{ textAlign: 'justify' }}>
                         <li >
-                            niche Mountain Bike selling website to sell the bikes and the costumes are chosen to buy easily and load data from the server.
+                            It is travelers website.
+                        </li>
+                        <li >
+                            Anyone chose their best places and can order to tour the place.
                         </li>
                         <li>
-                            Implement to admin dashboard to monitor the CURD operation to UI.
-
+                            Implement the CURD operation to UI.
                         </li>
                         <li>
-                            Users can cancel their order and if any product is shipped to the customer then the admin can declare the product pending to be shipped & the admin can add any product.
-
+                            Anyone can see the all offers without loggin. But The other CURD operation cann't see without login.
                         </li>
                         <li>
-                            Customers create their account only using email and password and Users can review their satisfaction with the product and services and implement this system using firebase.
-
+                            Users can cancel their order. If that product status is pending.
                         </li>
                         <li>
-                            Topeak Joeblow Booster floor pump
-
+                            If any product is shipped to the customer then the user can declare the product pending to be shipped
+                        </li>
+                        <li>
+                            Customers create their account only using email and password and  and implement this system using firebase.
+                        </li>
+                        <li>
+                            Implement to login and resgister using email and password.
+                        </li>
+                        <li>
+                            The login and registration system implement by firebase.
                         </li>
                         <li>
                             using technologies are javaScript, mongoDB, Node js, Express JS, React,

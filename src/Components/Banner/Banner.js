@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Button, Row, Col, Container } from 'react-bootstrap';
 import Typewriter from 'typewriter-effect';
 import './Banner.css'
@@ -13,7 +14,7 @@ const Banner = () => {
 
                 <Col xs={12} md={6}>
                     <div style={{ marginTop: '5rem' }}>
-                        <h4 className="justify-content-center">Welcome, I am <span style={{ color: 'goldenrod' }}>Sohel Rana Pramanik</span></h4>
+                        <h4 className="justify-content-center" >Welcome, I am <span style={{ color: 'goldenrod' }}>Sohel Rana Pramanik</span></h4>
                         <h5 style={{ textAlign: 'justify' }}>MERN STACK developer and Computer Science graduate set a goal for web
                             development. I have expertise in HTML5, CSS3, Javascript, ES6, Bootstrap,
                             Material UI, Tailwind, React, Node JS, Express JS, Mongo DB.</h5>

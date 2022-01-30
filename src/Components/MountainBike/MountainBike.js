@@ -47,8 +47,25 @@ const MountainBike = () => {
 
                         </li>
                         <li>
-                            Topeak Joeblow Booster floor pump
-
+                            Implement the CURD operation to UI.
+                        </li>
+                        <li>
+                            Anyone can see the all offers without login. But The other CURD operation cann't see without login.
+                        </li>
+                        <li>
+                            Users can cancel their order. If that product status is pending.
+                        </li>
+                        <li>
+                            If any product is shipped to the customer then the admin can declare the product status pending to be shipped
+                        </li>
+                        <li>
+                            Customers create their account only using email and password and  and implement this system using firebase.
+                        </li>
+                        <li>
+                            Implement to login and resgister using email and password.
+                        </li>
+                        <li>
+                            The login and registration system implement by firebase.
                         </li>
                         <li>
                             using technologies are javaScript, mongoDB, Node js, Express JS, React,

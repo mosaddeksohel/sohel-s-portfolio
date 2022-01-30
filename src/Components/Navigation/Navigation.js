@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Navbar, Button, Nav } from 'react-bootstrap';
+import { Container, Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Navigation = () => {
@@ -11,7 +11,7 @@ const Navigation = () => {
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav className="left">
-                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Nav.Link> <Link to="/home" style={{ color: 'gray', textDecoration: 'none', fontWeight: '600' }}>Home</Link>  </Nav.Link>
                             <Nav.Link><Link to="/projects" style={{ color: 'gray', textDecoration: 'none', fontWeight: '600' }}>Projects</Link></Nav.Link>
                             <Nav.Link ><Link to="/blog" style={{ color: 'gray', textDecoration: 'none', fontWeight: '600' }}>Blog</Link></Nav.Link>
                             <Nav.Link ><Link to="/aboutme" style={{ color: 'gray', textDecoration: 'none', fontWeight: '600' }}>About me</Link></Nav.Link>
